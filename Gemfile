@@ -7,3 +7,6 @@ gem 'sinatra-contrib'
 gem 'pry'
 # for testing
 gem 'rspec'
+gem 'webmock'
+gem 'vcr'
+gem 'foreman'
