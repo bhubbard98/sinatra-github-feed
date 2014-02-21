@@ -7,3 +7,4 @@
 
 # mac will generate these files when you go to a directory in finder. It is always a good thing to gitignore
 *.DS_Store
+spec/vcr_cassettes
