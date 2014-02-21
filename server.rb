@@ -6,4 +6,8 @@ get '/' do
   "Hey, this is a web app"
 end
 
+get '/test' do
+  "#{GHFeed::RepoInfo.get_repo_data("bhubbard98", "pizza")}"
+end
+
 
